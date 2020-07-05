@@ -1,15 +1,9 @@
 {
   "authors": [
     {
-      "name": "Katie Graham",
+      "name": "Amanda Mae Gray",
       "id": "katie-graham",
       "email": "test@test.com"
-    },
-    {
-      "id": "scott-byrne",
-      "name": "Scott Byrne",
-      "email": "scott.byrne@forestry.io",
-      "link": "mailto:scott.byrne@forestry.io"
     }
   ]
 }
