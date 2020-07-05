@@ -26,7 +26,8 @@
     "large": false,
     "overlay": true,
     "overlap": "8rem",
-    "parallax": true
+    "parallax": true,
+    "headline": "Building a Joyful Life!"
   },
   "typography": {
     "uppercaseH2": false
