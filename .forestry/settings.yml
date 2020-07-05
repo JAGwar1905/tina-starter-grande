@@ -5,15 +5,23 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: content/pages
+  label: Pages
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".json"
+- type: directory
+  path: content/settings
+  label: Settings
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".json"
+- type: directory
   path: content/posts
   label: Blog
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
-- type: document
-  path: content/settings
-  label: Settings
-  match: "**/*"
+  new_doc_ext: md
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
