@@ -9,21 +9,21 @@ sections:
   label: Pages
   create: documents
   match: "**/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
 - type: directory
   path: content/settings
   label: Settings
   create: documents
   match: "**/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
 - type: directory
   path: content/posts
   label: Blog
   create: documents
   match: "**/*"
   new_doc_ext: md
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: content/images
+public_path: "/content/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
